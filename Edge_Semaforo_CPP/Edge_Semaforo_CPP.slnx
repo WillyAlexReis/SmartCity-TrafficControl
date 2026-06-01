@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Edge_Semaforo_CPP/Edge_Semaforo_CPP.vcxproj" Id="3dc2ad66-f97f-4c34-a10e-4bcc3f534ae0" />
+</Solution>

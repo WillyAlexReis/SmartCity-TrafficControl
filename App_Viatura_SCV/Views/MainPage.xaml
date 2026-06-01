@@ -1,0 +1,67 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Viatura_SCV.Views.MainPage"
+             BackgroundColor="#1E1E1E">
+
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="HeightRequest" Value="80" />
+            <Setter Property="CornerRadius" Value="10" />
+            <Setter Property="BackgroundColor" Value="#D32F2F" />
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="#D32F2F" />
+                                <Setter Property="Opacity" Value="1.0" />
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState x:Name="PointerOver">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="#D32F2F" />
+                                <Setter Property="Opacity" Value="0.8" />
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState x:Name="Pressed">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="#B71C1C" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+    <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
+
+        <Label Text="🚑 SAMU - SCV"
+               FontSize="32"
+               FontAttributes="Bold"
+               TextColor="White"
+               HorizontalOptions="Center" />
+
+        <Label Text="Painel Tático de Preempção"
+               FontSize="18"
+               TextColor="Gray"
+               HorizontalOptions="Center"
+               Margin="0,0,0,30"/>
+
+        <Button Text="🚨 SIRENE - VIA PRINCIPAL" Command="{Binding SirenePrincipalCommand}">
+            <Button.GestureRecognizers>
+                <PointerGestureRecognizer />
+            </Button.GestureRecognizers>
+        </Button>
+
+        <Button Text="🚨 SIRENE - VIA TRANSVERSAL" Command="{Binding SireneTransversalCommand}">
+            <Button.GestureRecognizers>
+                <PointerGestureRecognizer />
+            </Button.GestureRecognizers>
+        </Button>
+
+    </VerticalStackLayout>
+</ContentPage>
