@@ -1,6 +1,3 @@
-Para a pasta `Edge_Semaforo_CPP`
-
-```markdown
 # 🚦 Controlador Edge - Semáforo C++
 
 Software embarcado de baixo nível responsável pelo acionamento do hardware físico nos cruzamentos.
