@@ -37,5 +37,8 @@ A plataforma está em evolução contínua para simular ambientes de produção 
 * Expansão para acionamento de hardware físico (relés e GPIO).
 * Construção de um Dashboard Web para a central de monitorização de tráfego.
 
+## 🤖 Disclaimer de IA
+Este projeto foi desenvolvido com o auxílio de ferramentas de Inteligência Artificial (LLMs) atuando como *Pair Programmer* e assistentes de arquitetura. A IA foi utilizada para debater padrões de projeto (como Pub/Sub), otimizar o fluxo de mensageria MQTT, estruturar a documentação e depurar integrações de baixo nível entre C# e C++, enquanto a lógica de negócios, a orquestração e a decisão arquitetural final foram desenhadas e validadas por intervenção humana.
+
 ---
 **Desenvolvido por Williadson Sales** - Analista e Desenvolvedor de Sistemas.
