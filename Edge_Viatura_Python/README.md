@@ -19,6 +19,6 @@ Na **Fase 2 (Atual)**, o ecossistema foi migrado para o broker `EMQX`. Para reut
 
 ## 🚀 Como Executar
 1. Certifique-se de ter o interpretador **Python 3** instalado na sua máquina.
-2. Instale a biblioteca MQTT via terminal:
-   ```bash
-   pip install paho-mqtt
+2. Instale a biblioteca MQTT executando o comando: `pip install paho-mqtt` no seu terminal.
+3. Abra um terminal na raiz desta pasta e execute o script com o comando: `python viatura_simulador.py`
+4. O terminal exibirá um menu interativo simulando a tela touchscreen da viatura. Escolha as opções de 1 a 2 para despachar a telemetria JSON via nuvem.
