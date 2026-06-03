@@ -1,5 +1,13 @@
 # 🐍 Simulador de Viatura - Python (Mock Client)
 
+<div align="center">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/mqtt-%233C5280.svg?style=for-the-badge&logo=mqtt&logoColor=white" alt="MQTT" />
+  <img src="https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=white" alt="JSON" />
+</div>
+
+<br>
+
 Script leve de simulação de hardware para testes de integração (Stubs) e validação de tráfego de rede, sem a necessidade de inicializar o framework pesado do aplicativo tático.
 
 ## 🎯 Objetivo
